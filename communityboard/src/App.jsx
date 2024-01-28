@@ -17,7 +17,7 @@ function App() {
   return (
     <div>
       <h1>Top 10 Orlando Parks</h1>
-      <h2>TripAdvisor</h2>
+      <h2>info from : TripAdvisor</h2>
       <div className="park-container">
         <Park name="Universal Studios-Island of Adventure" type="Theme Park" image={parkImage1} parkLink="https://www.universalorlando.com/web/en/us/theme-parks/islands-of-adventure"/>
         <Park name="Discovery Cove" type="Water Park" image={parkImage2} parkLink="https://seaworldentertainment.com/our-brands/discovery-cove/"/>
