@@ -1,0 +1,37 @@
+.park-style {
+  background-color: #fff; /* White background */
+  border: 1px solid #ccc; /* Light grey border */
+  border-radius: 8px;
+  overflow: hidden; /* Ensures the image doesn't break the border radius */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  text-align: center; /* Center text and content */
+  margin-bottom: 20px; /* Spacing below the card */
+}
+
+.park-style img {
+  width: 100%; /* Full width images */
+  display: block; /* Remove bottom space under the image */
+}
+
+.park-style  h3 {
+  margin: 0.5em 0; /* Top and bottom margin for the food truck name */
+  font-size: 1.5em; /* Larger text for the food truck name */
+}
+
+.park-style p {
+  color: #666; /* Dark grey for the cuisine type */
+  margin-bottom: 1em; /* Bottom margin */
+}
+
+.park-button {
+  background-color: #ff6f61; /* Button color */
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline from links */
+  padding: 10px 15px; /* Padding for the button */
+  border-radius: 20px; /* Rounded corners for the button */
+  transition: background-color 0.3s; /* Transition for the hover effect */
+}
+
+.menu-button:hover {
+  background-color: #e9554f; /* Darker color on hover */
+}
